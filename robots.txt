@@ -1,0 +1,4 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Sitemap: https://diljot.dev/sitemap.xml
+Disallow:

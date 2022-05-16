@@ -1,0 +1,25 @@
+{
+  "short_name": "Diljot Garcha's Site",
+  "name": "Diljot Garcha's Personal Website",
+  "icons": [
+    {
+      "src": "assets/img/favicon.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/pmg"
+    },
+    {
+      "src": "assets/img/dg-128x128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "assets/img/dg-500x500.png",
+      "type": "image/png",
+      "sizes": "500x500"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#7BB762",
+  "background_color": "#FFFFFF"
+}
