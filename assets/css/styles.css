@@ -1,0 +1,64 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow: hidden;
+  overflow-y: auto;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e8e6f0 0%, #d1c4e9 100%);
+}
+
+.avatar {
+  margin-left: auto;
+  margin-right: auto;
+  height: 250px;
+  width: 250px;
+}
+
+.summary-text {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 36em;
+}
+
+.navbar-item {
+  color: #2d283e;
+}
+
+.title {
+  color: #2d283e;
+}
+
+.subtitle {
+  color: #4b3f72;
+}
+
+.button.is-ghost {
+  color: #4b3f72;
+  transition: color 0.3s ease;
+}
+
+.button.is-ghost:hover {
+  color: #802bb1;
+  text-decoration: none;
+}
+
+.content {
+  color: #2d283e;
+}
+
+.has-text-grey {
+  color: #564f6f !important;
+}
+
+/* Ensure icons have proper spacing */
+.social-links.buttons {
+  gap: 1rem;
+}
+
+.social-links .button.is-ghost {
+  padding: 1rem;
+  height: auto;
+  min-width: 3.5rem;
+}
